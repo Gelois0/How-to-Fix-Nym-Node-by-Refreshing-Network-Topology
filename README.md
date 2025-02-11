@@ -46,6 +46,6 @@ systemctl restart nym-node.service && journalctl -f -u nym-node.service
 If the logs indicate successful startup and no errors, the node is now properly fixed and functional. 
 
 **Additional Note:**
-This guide is based on my personal experience from a year ago when I encountered similar network topology issues and successfully restored the node following these steps. I would like to extend my thanks to Kaleb for his invaluable help in solving this issue. If you need more help or details, you can check out the following link for further discussion:
+This guide is based on my personal experience from a year ago when I encountered similar network topology issues and successfully restored the node following these steps. I would like to extend my thanks to [**Kaleb**](https://github.com/kaledcorona) for his invaluable help in solving this issue. If you need more help or details, you can check out the following link for further discussion:
 
 [Guide on the experience in Matrix](https://matrix.to/#/!RvSqkbfokAPMVnLbAE:nymtech.chat/$XkQAp3bgjlBwkMJvv_8yI9XF3irSlcBIWr71hjtjq2c?via=matrix.org&via=nymtech.chat&via=hackliberty.org)
