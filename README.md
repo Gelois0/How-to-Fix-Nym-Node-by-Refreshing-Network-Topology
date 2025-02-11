@@ -33,7 +33,7 @@ Now, restart the Nym node service to let it fetch the updated network topology:
 systemctl restart nym-node.service
 ```
 
-### 5. Monitor Logs to Confirm Success && Restore Backup 
+### 5. Restore Backup  && Monitor Logs to Confirm Success
 After restoring the backup and restarting the node again, check the logs one more time to confirm that everything is now functioning smoothly.
 ```bash
 journalctl -f -u nym-node.service
