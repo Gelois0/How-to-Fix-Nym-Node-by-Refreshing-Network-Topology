@@ -36,7 +36,6 @@ systemctl restart nym-node.service
 ### 5. Restore Backup  && Monitor Logs to Confirm Success
 After restoring the backup and restarting the node again, check the logs one more time to confirm that everything is now functioning smoothly.
 ```bash
-journalctl -f -u nym-node.service
 mv backup/*.sqlite .
 systemctl restart nym-node.service && journalctl -f -u nym-node.service
 ```
