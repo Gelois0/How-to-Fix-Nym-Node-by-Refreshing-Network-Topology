@@ -11,7 +11,7 @@ If your Nym node is failing to start due to inconsistent network topology data, 
 ### 1. Navigate to the Data Directory
 First, change into the directory where the database files are stored:
 ```bash
-cd /root/.nym/nym-nodes/hknym1/data/
+cd /root/.nym/nym-nodes/*/data/
 ```
 
 ### 2. Backup Existing Database Files
