@@ -21,20 +21,13 @@ mkdir -p backup && mv *.sqlite backup/
 ```
 This will move all SQLite database files into a `backup` folder inside the same directory.
 
-### 3. Remove the Network Topology Files
-Delete only the specific database files related to network topology:
-```bash
-rm -f ipr_gateways_info_store.sqlite nr_gateways_info_store.sqlite
-```
-This ensures that the node will download fresh copies of these files.
-
-### 4. Restart the Nym Node
+### 3. Restart the Nym Node
 Now, restart the Nym node service to let it fetch the updated network topology:
 ```bash
 systemctl restart nym-node.service
 ```
 
-### 5. Restore Backup  && Monitor Logs to Confirm Success
+### 4. Restore Backup  && Monitor Logs to Confirm Success
 After restoring the backup and restarting the node again, check the logs one more time to confirm that everything is now functioning smoothly.
 ```bash
 mv backup/*.sqlite .
